@@ -8,7 +8,7 @@ The `at` command is used for scheduling one-time tasks to be executed at a speci
 **1. Basic Syntax:**
 
 ```bash
-at [TIME] [DATE]
+at [TIME] [DATE] [script name/path]
 ```
 
 - `[TIME]` specifies the time at which the command or script should be executed (e.g., "12:30 PM").
@@ -19,7 +19,7 @@ at [TIME] [DATE]
 For example, to schedule a script named `myscript.sh` to run tomorrow at 3:00 PM, you can use the following command:
 
 ```bash
-at 3:00 PM tomorrow
+at 3:00 PM tomorrow myscript.sh
 ```
 
 After running this command, you'll be prompted to enter the command(s) to be executed. Enter the script or command you want to run, followed by `Ctrl+D` to save and exit.
@@ -62,7 +62,7 @@ A crontab line consists of five fields:
 * * * * * command_to_execute
 - - - - -
 | | | | |
-| | | | +----- Day of the week (0 - 6) (Sunday = 0)
+| | | | +----- Day of the week (0 - 7) (Sunday = 0 or 7)
 | | | +------- Month (1 - 12)
 | | +--------- Day of the month (1 - 31)
 | +----------- Hour (0 - 23)
@@ -73,8 +73,10 @@ A crontab line consists of five fields:
 - Multiple values can be specified using commas (e.g., `1,3,5`).
 - Ranges of values can be specified using a hyphen (e.g., `1-5`).
 - You can use special characters like `*/5` to specify intervals (e.g., every 5 minutes).
+- If there is a need to edit a crontab for some other user on the server, it is done by just specifying the user name as:
+`sudo crontab -u username -e`
 
-**3. Examples:**
+**3. Examples:** 
 
 Here are some example crontab entries:
 
