@@ -21,7 +21,7 @@ Assuming you have SSH access to the remote server, you can copy your public key 
 ssh-copy-id username@remote_server
 ```
 
-Replace `username` with your username on the remote server and `remote_server` with the server's IP address or hostname.
+Replace `username` with your username on the remote server and `remote_server` with the server's IP address or hostname (domain name).
 
 ### 2. Remote Command Execution:
 
