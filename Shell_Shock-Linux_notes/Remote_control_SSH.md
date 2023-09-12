@@ -1,5 +1,5 @@
 # Remote control using Bash
-Remote control using Bash typically involves connecting to remote servers or devices via SSH (Secure Shell) and running commands or scripts on those remote systems. SSH is a secure protocol for remote access and command execution. Here's how you can use Bash for remote control:
+Remote control using Bash typically involves connecting to remote servers or devices via SSH (Secure Shell) and running commands or scripts on those remote systems. SSH is a secure protocol for remote access and command execution.
 
 ### 1. SSH Key Setup:
 

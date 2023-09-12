@@ -1,5 +1,5 @@
 # Secure Copy Protocol
-SCP, or Secure Copy Protocol, is a command-line tool and protocol used for securely copying files and directories between two computers over an SSH connection. SCP encrypts data during transfer, providing a secure method for copying files between local and remote machines. Here, I'll provide greater detail on how to use SCP with examples.
+SCP, or Secure Copy Protocol, is a command-line tool and protocol used for securely copying files and directories between two computers over an SSH connection. SCP encrypts data during transfer, providing a secure method for copying files between local and remote machines.
 
 ### Basic SCP Syntax:
 

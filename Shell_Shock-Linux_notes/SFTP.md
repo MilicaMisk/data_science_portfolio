@@ -1,5 +1,5 @@
 # Secure File Transfer Protocol
-SFTP (Secure File Transfer Protocol) is a secure protocol used to transfer files between a local computer and a remote server over an encrypted SSH (Secure Shell) connection. SFTP tunnels are not as common as SSH port forwarding or SCP, but they can be set up for specific use cases where you want to securely transfer files via SFTP over an SSH tunnel. Here's how to set up and use an SFTP tunnel in greater detail, along with examples:
+SFTP (Secure File Transfer Protocol) is a secure protocol used to transfer files between a local computer and a remote server over an encrypted SSH (Secure Shell) connection. SFTP tunnels are not as common as SSH port forwarding or SCP, but they can be set up for specific use cases where you want to securely transfer files via SFTP over an SSH tunnel.
 
 ### Setting Up an SFTP Tunnel:
 
