@@ -1,6 +1,6 @@
 # Docker intro
 
-is a popular containerization platform that allows you to package, distribute, and run applications and their dependencies in lightweight containers. Containers are portable, efficient, and provide a consistent environment for your applications across different environments. Let's get started with the basics of Docker:
+Docker is a popular containerization platform that allows you to package, distribute, and run applications and their dependencies in lightweight containers. Containers are portable, efficient, and provide a consistent environment for your applications across different environments. Let's get started with the basics of Docker:
 
 **1. Installation**:
 
