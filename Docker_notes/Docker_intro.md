@@ -1,4 +1,4 @@
-# Docker intro
+# Docker -  intro
 
 Docker is a popular containerization platform that allows you to package, distribute, and run applications and their dependencies in lightweight containers. Containers are portable, efficient, and provide a consistent environment for your applications across different environments. Let's get started with the basics of Docker:
 
@@ -158,4 +158,4 @@ docker stop <container_id_or_name>
 docker rm <container_id_or_name>
 ```
 
-That's it! You've successfully created a Docker container running a Python script on Ubuntu. This simple example demonstrates how to use Docker to package and run applications in isolated containers. It can be built on this foundation to create more complex Dockerized applications as needed.
+That's it! You've successfully created a Docker container running a Python script on Ubuntu. This simple example demonstrates how to use Docker to package and run applications in isolated containers. It can be built on this foundation to create more complex Dockerized applications as needed. You can find the official getting started documentation for Docker by following this link: [Docker Official Getting Started Guide](https://docs.docker.com/get-started/).
